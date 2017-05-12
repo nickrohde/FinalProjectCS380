@@ -1,0 +1,142 @@
+﻿#banner{
+    padding-top:10px;
+    padding-left: 300px;
+}
+
+#bannerBox{
+    padding:10px;
+    border:solid 1px;
+    border-radius:5px;
+    height:auto;
+    width: 1880px;
+    background-color:#003B6F;
+    color:silver;
+}
+
+#menu_title{
+    padding-left:40px;
+}
+
+#pageContent{
+    display:flex;
+}
+
+#productBoxLabel{
+    margin-left:100px;
+    font-size:30px;
+}
+
+.error{
+    color:red;
+}
+
+#errorBox{
+    margin-top:20px;
+    margin-left:50px;
+}
+
+#productBox{
+    margin-left: 220px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size:20px;
+    border:solid 1px;
+    border-radius:5px;
+    height:auto;
+    width: 1420px;
+    background-color:#003B6F;
+    color:silver;
+    align-items:center;
+    display:flex;
+}
+
+#submitButton{
+    margin-top:10px;
+    margin-left: 185px;
+}
+
+#inputBox{
+    margin-left:200px;
+    margin-top:50px;
+}
+
+#newProductNameInput{
+    margin-left:46px;
+}
+
+#newProductPriceInput{
+    margin-left:120px;
+}
+
+#newProductQuantityInput{
+    margin-left:91px;
+}
+
+.menuAdjust{
+    margin-top:15px;
+}
+
+#menu{
+    height:auto;
+    margin-top:15px;
+    width:200px;
+    padding:5px;
+    float:left;
+    font-size:20px;
+    border:solid 1px;
+    border-radius:5px;
+    line-height:30px;
+    background-color:#003B6F;
+    color:silver;
+}
+#loginBox{
+    padding-left:20px;
+    padding-bottom:15px;
+}
+
+a{
+    color:silver;
+}
+
+#Welcome_Message{
+    padding-left:400px;
+    font-size:60px;
+    color:black;
+}
+
+#productTable{
+    margin-left:440px;
+}
+
+.headCells{
+    border: 1px solid black;
+    color:silver;
+    background-color: #003B6F;
+    text-align:center;
+    width:250px;
+}
+
+.cells{
+    border: 1px solid silver;
+    color: #003B6F;
+    text-align:center;
+}
+
+#thankYouMsg{
+    margin-left: 250px;
+    color: #003b6F;
+    border: 1px solid black;
+    width: 1000px;
+    text-align:center;
+    padding: 5px;
+}
+
+footer{
+    padding:10px;
+    border-radius:5px;
+    clear:both;
+    color:silver;
+    text-align:center;
+    background:#003B6F;
+}
