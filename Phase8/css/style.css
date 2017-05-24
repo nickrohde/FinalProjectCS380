@@ -1,9 +1,11 @@
-﻿#banner{
+﻿#banner
+{
     padding-top:10px;
     padding-left: 300px;
 }
 
-#bannerBox{
+#bannerBox
+{
     padding:10px;
     border:solid 1px;
     border-radius:5px;
@@ -13,29 +15,35 @@
     color:silver;
 }
 
-#menu_title{
+#menu_title
+{
     padding-left:40px;
 }
 
-#pageContent{
+#pageContent
+{
     display:flex;
 }
 
-#productBoxLabel{
+#productBoxLabel
+{
     margin-left:100px;
     font-size:30px;
 }
 
-.error{
+.error
+{
     color:red;
 }
 
-#errorBox{
+#errorBox
+{
     margin-top:20px;
     margin-left:50px;
 }
 
-#productBox{
+#productBox
+{
     margin-left: 220px;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -51,33 +59,40 @@
     display:flex;
 }
 
-#submitButton{
+#submitButton
+{
     margin-top:10px;
     margin-left: 185px;
 }
 
-#inputBox{
+#inputBox
+{
     margin-left:200px;
     margin-top:50px;
 }
 
-#newProductNameInput{
+#newProductNameInput
+{
     margin-left:46px;
 }
 
-#newProductPriceInput{
+#newProductPriceInput
+{
     margin-left:120px;
 }
 
-#newProductQuantityInput{
+#newProductQuantityInput
+{
     margin-left:91px;
 }
 
-.menuAdjust{
+.menuAdjust
+{
     margin-top:15px;
 }
 
-#menu{
+#menu
+{
     height:auto;
     margin-top:15px;
     width:200px;
@@ -90,26 +105,31 @@
     background-color:#003B6F;
     color:silver;
 }
-#loginBox{
+#loginBox
+{
     padding-left:20px;
     padding-bottom:15px;
 }
 
-a{
+a
+{
     color:silver;
 }
 
-#Welcome_Message{
+#Welcome_Message
+{
     padding-left:400px;
     font-size:60px;
     color:black;
 }
 
-#productTable{
+#productTable
+{
     margin-left:440px;
 }
 
-.headCells{
+.headCells
+{
     border: 1px solid black;
     color:silver;
     background-color: #003B6F;
@@ -117,13 +137,15 @@ a{
     width:250px;
 }
 
-.cells{
+.cells
+{
     border: 1px solid silver;
     color: #003B6F;
     text-align:center;
 }
 
-#thankYouMsg{
+#thankYouMsg
+{
     margin-left: 250px;
     color: #003b6F;
     border: 1px solid black;
@@ -132,7 +154,8 @@ a{
     padding: 5px;
 }
 
-footer{
+footer
+{
     padding:10px;
     border-radius:5px;
     clear:both;
