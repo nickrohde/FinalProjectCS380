@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminTools\admin_home.aspx" />
+    <Content Include="communityTools\community_home.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
@@ -82,6 +84,8 @@
     <Content Include="productManagement\newProduct.aspx" />
     <Content Include="shopping\buyNow.aspx" />
     <Content Include="shopping\productsPage.aspx" />
+    <Content Include="studentTools\student_home.aspx" />
+    <Content Include="teacherTools\faculty_home.aspx" />
     <Content Include="userManagement\showUser.aspx" />
     <Content Include="userManagement\updateUserInfo.aspx" />
     <Content Include="userManagement\userInfo.aspx" />
@@ -91,6 +95,20 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminTools\admin_home.aspx.cs">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminTools\admin_home.aspx.designer.cs">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityTools\community_home.aspx.cs">
+      <DependentUpon>community_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityTools\community_home.aspx.designer.cs">
+      <DependentUpon>community_home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,6 +136,20 @@
     </Compile>
     <Compile Include="shopping\productsPage.aspx.designer.cs">
       <DependentUpon>productsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentTools\student_home.aspx.cs">
+      <DependentUpon>student_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studentTools\student_home.aspx.designer.cs">
+      <DependentUpon>student_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacherTools\faculty_home.aspx.cs">
+      <DependentUpon>faculty_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacherTools\faculty_home.aspx.designer.cs">
+      <DependentUpon>faculty_home.aspx</DependentUpon>
     </Compile>
     <Compile Include="userManagement\showUser.aspx.cs">
       <DependentUpon>showUser.aspx</DependentUpon>
@@ -157,11 +189,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="adminTools\" />
-    <Folder Include="studentTools\" />
-    <Folder Include="teacherTools\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
