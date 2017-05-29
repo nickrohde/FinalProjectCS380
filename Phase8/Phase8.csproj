@@ -85,7 +85,7 @@
     <Content Include="shopping\buyNow.aspx" />
     <Content Include="shopping\productsPage.aspx" />
     <Content Include="studentTools\student_home.aspx" />
-    <Content Include="teacherTools\faculty_home.aspx" />
+    <Content Include="facultyTools\faculty_home.aspx" />
     <Content Include="userManagement\showUser.aspx" />
     <Content Include="userManagement\updateUserInfo.aspx" />
     <Content Include="userManagement\userInfo.aspx" />
@@ -144,11 +144,11 @@
     <Compile Include="studentTools\student_home.aspx.designer.cs">
       <DependentUpon>student_home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="teacherTools\faculty_home.aspx.cs">
+    <Compile Include="facultyTools\faculty_home.aspx.cs">
       <DependentUpon>faculty_home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="teacherTools\faculty_home.aspx.designer.cs">
+    <Compile Include="facultyTools\faculty_home.aspx.designer.cs">
       <DependentUpon>faculty_home.aspx</DependentUpon>
     </Compile>
     <Compile Include="userManagement\showUser.aspx.cs">
