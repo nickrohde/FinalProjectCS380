@@ -22,8 +22,6 @@
                     <asp:MenuItem Text="Edit Account" NavigateUrl="CommunityAccount.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
                 </Items>
-
-			</asp:Text
             </asp:Menu>
         </div>
 
