@@ -16,5 +16,15 @@ namespace Phase8.adminTools
                 Response.Redirect("../LoginPage/LoginPage.aspx");
             }
         }
+
+        protected void testButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void testButton3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
