@@ -89,6 +89,7 @@
     <Content Include="facultyTools\FacultyAcceptHours.aspx" />
     <Content Include="facultyTools\FacultyAccount.aspx" />
     <Content Include="facultyTools\FacultyViewProgress.aspx" />
+    <Content Include="studentTools\Calendar.aspx" />
     <Content Include="studentTools\studentCreateAPlan.aspx" />
     <Content Include="studentTools\studentThankYou.aspx" />
   </ItemGroup>
@@ -100,6 +101,7 @@
     <Content Include="shopping\buyNow.aspx" />
     <Content Include="shopping\productsPage.aspx" />
     <Content Include="facultyTools\FacultyHome.aspx" />
+    <Content Include="studentTools\studentViewProgress.aspx" />
     <Content Include="userManagement\showUser.aspx" />
     <Content Include="userManagement\updateUserInfo.aspx" />
     <Content Include="userManagement\userInfo.aspx" />
@@ -200,6 +202,20 @@
     <Compile Include="facultyTools\FacultyHome.aspx.designer.cs">
       <DependentUpon>FacultyHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="studentTools\Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studentTools\Calendar.aspx.designer.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentTools\studentViewProgress.aspx.cs">
+      <DependentUpon>studentViewProgress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studentTools\studentViewProgress.aspx.designer.cs">
+      <DependentUpon>studentViewProgress.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userManagement\showUser.aspx.cs">
       <DependentUpon>showUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -239,36 +255,42 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="communityTools\CommunitySignOff.aspx.cs">
       <DependentUpon>CommunitySignOff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="communityTools\CommunitySignOff.aspx.designer.cs">
       <DependentUpon>CommunitySignOff.aspx</DependentUpon>
     </Compile>
     <Compile Include="facultyTools\FacultyAcceptHours.aspx.cs">
       <DependentUpon>FacultyAcceptHours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="facultyTools\FacultyAcceptHours.aspx.designer.cs">
       <DependentUpon>FacultyAcceptHours.aspx</DependentUpon>
     </Compile>
     <Compile Include="facultyTools\FacultyAccount.aspx.cs">
       <DependentUpon>FacultyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="facultyTools\FacultyAccount.aspx.designer.cs">
       <DependentUpon>FacultyAccount.aspx</DependentUpon>
     </Compile>
     <Compile Include="facultyTools\FacultyViewProgress.aspx.cs">
       <DependentUpon>FacultyViewProgress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="facultyTools\FacultyViewProgress.aspx.designer.cs">
       <DependentUpon>FacultyViewProgress.aspx</DependentUpon>
     </Compile>
     <Compile Include="studentTools\studentCreateAPlan.aspx.cs">
       <DependentUpon>studentCreateAPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="studentTools\studentCreateAPlan.aspx.designer.cs">
       <DependentUpon>studentCreateAPlan.aspx</DependentUpon>
     </Compile>
     <Compile Include="studentTools\studentThankYou.aspx.cs">
       <DependentUpon>studentThankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="studentTools\studentThankYou.aspx.designer.cs">
       <DependentUpon>studentThankYou.aspx</DependentUpon>

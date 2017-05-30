@@ -8,8 +8,8 @@
             <staticselectedstyle backcolor="#8a0bea"/>
             <Items>
                 <asp:MenuItem Text="Create A Plan" Selected="true" NavigateUrl="#"></asp:MenuItem>
-                <asp:MenuItem Text="View Progress" NavigateUrl="#"></asp:MenuItem>
-                <asp:MenuItem Text="Calendar" NavigateUrl="#"></asp:MenuItem>
+                <asp:MenuItem Text="View Progress" NavigateUrl="studentViewProgress.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Calendar" NavigateUrl="Calendar.aspx"></asp:MenuItem>
                 <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
             </Items>
                                   
