@@ -10,7 +10,7 @@
 namespace Phase8.studentTools {
     
     
-    public partial class student_home {
+    public partial class studentThankYou {
         
         /// <summary>
         /// navMenu control.
@@ -20,5 +20,23 @@ namespace Phase8.studentTools {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Menu navMenu;
+        
+        /// <summary>
+        /// Welcome_Message control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Welcome_Message;
+        
+        /// <summary>
+        /// Submit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Submit;
     }
 }

@@ -7,14 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace Phase8.studentTools
 {
-    public partial class student_home : System.Web.UI.Page
+    public partial class studentThankYou : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if ((string)Session["ID"] != "student")
-            {
-                Response.Redirect("../LoginPage/LoginPage.aspx");
-            }
+
+        }
+        protected void returnToStart(object sender, EventArgs e)
+        {
+            Response.Redirect("studentCreateAPlan.aspx");
         }
     }
 }

@@ -7,54 +7,63 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Phase8.LoginPage {
+namespace Phase8.studentTools {
     
     
-    public partial class LoginPage {
+    public partial class student_home {
         
         /// <summary>
-        /// loginBox control.
+        /// navMenu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl loginBox;
+        protected global::System.Web.UI.WebControls.Menu navMenu;
         
         /// <summary>
-        /// usernameBox control.
+        /// Welcome_Message control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox usernameBox;
+        protected global::System.Web.UI.WebControls.Label Welcome_Message;
         
         /// <summary>
-        /// passwordBox control.
+        /// Name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordBox;
+        protected global::System.Web.UI.WebControls.TextBox Name;
         
         /// <summary>
-        /// loginButton control.
+        /// Description control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button loginButton;
+        protected global::System.Web.UI.WebControls.TextBox Description;
         
         /// <summary>
-        /// SignUpButton control.
+        /// Hours control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SignUpButton;
+        protected global::System.Web.UI.WebControls.TextBox Hours;
+        
+        /// <summary>
+        /// Submit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Submit;
     }
 }

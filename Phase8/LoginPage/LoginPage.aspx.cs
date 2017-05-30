@@ -29,7 +29,7 @@ namespace Phase8.LoginPage
             else if (usernameBox.Text == "student")
             {
                 Session["ID"] = "student";
-                Response.Redirect("..\\studentTools\\StudentHome.aspx");
+                Response.Redirect("..\\studentTools\\studentCreateAPlan.aspx");
             }
             else if (usernameBox.Text == "admin")
             {
