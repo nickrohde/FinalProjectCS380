@@ -85,6 +85,10 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="communityTools\CommunitySignOff.aspx" />
+    <Content Include="css\FacultyStyle.css" />
+    <Content Include="facultyTools\FacultyAcceptHours.aspx" />
+    <Content Include="facultyTools\FacultyAccount.aspx" />
+    <Content Include="facultyTools\FacultyViewProgress.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.css" />
@@ -244,6 +248,24 @@
     </Compile>
     <Compile Include="communityTools\CommunitySignOff.aspx.designer.cs">
       <DependentUpon>CommunitySignOff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyTools\FacultyAcceptHours.aspx.cs">
+      <DependentUpon>FacultyAcceptHours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyTools\FacultyAcceptHours.aspx.designer.cs">
+      <DependentUpon>FacultyAcceptHours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyTools\FacultyAccount.aspx.cs">
+      <DependentUpon>FacultyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyTools\FacultyAccount.aspx.designer.cs">
+      <DependentUpon>FacultyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyTools\FacultyViewProgress.aspx.cs">
+      <DependentUpon>FacultyViewProgress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyTools\FacultyViewProgress.aspx.designer.cs">
+      <DependentUpon>FacultyViewProgress.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
