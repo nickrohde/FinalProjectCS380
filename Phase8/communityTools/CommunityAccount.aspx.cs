@@ -7,11 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace Phase8.communityTools
 {
-    public partial class community : System.Web.UI.Page
+    public partial class CommunityAccount : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if ((string)Session["ID"] != "community")
+            {
+                Response.Redirect("../LoginPage/LoginPage.aspx");
+            }
         }
     }
 }

@@ -11,7 +11,10 @@ namespace Phase8.adminTools
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if ((string)Session["ID"] != "admin")
+            {
+                Response.Redirect("../LoginPage/LoginPage.aspx");
+            }
         }
     }
 }

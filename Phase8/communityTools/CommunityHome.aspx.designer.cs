@@ -10,7 +10,7 @@
 namespace Phase8.communityTools {
     
     
-    public partial class community {
+    public partial class CommunityHome {
         
         /// <summary>
         /// navMenu control.

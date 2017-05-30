@@ -66,8 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="adminTools\admin_home.aspx" />
-    <Content Include="communityTools\community_home.aspx" />
+    <Content Include="adminTools\AdminHome.aspx" />
+    <Content Include="communityTools\CommunityAccount.aspx" />
+    <Content Include="communityTools\CommunityHome.aspx" />
+    <Content Include="communityTools\CommunityInfo.aspx" />
+    <Content Include="communityTools\CommunityJob.aspx" />
+    <Content Include="css\Common.css" />
+    <Content Include="css\CommunityStyle.css" />
+    <Content Include="LoginPage\LoginPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
@@ -84,8 +90,8 @@
     <Content Include="productManagement\newProduct.aspx" />
     <Content Include="shopping\buyNow.aspx" />
     <Content Include="shopping\productsPage.aspx" />
-    <Content Include="studentTools\student_home.aspx" />
-    <Content Include="facultyTools\faculty_home.aspx" />
+    <Content Include="studentTools\StudentHome.aspx" />
+    <Content Include="facultyTools\FacultyHome.aspx" />
     <Content Include="userManagement\showUser.aspx" />
     <Content Include="userManagement\updateUserInfo.aspx" />
     <Content Include="userManagement\userInfo.aspx" />
@@ -95,19 +101,40 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="adminTools\admin_home.aspx.cs">
-      <DependentUpon>admin_home.aspx</DependentUpon>
+    <Compile Include="adminTools\AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adminTools\admin_home.aspx.designer.cs">
-      <DependentUpon>admin_home.aspx</DependentUpon>
+    <Compile Include="adminTools\AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="communityTools\community_home.aspx.cs">
-      <DependentUpon>community_home.aspx</DependentUpon>
+    <Compile Include="communityTools\CommunityAccount.aspx.cs">
+      <DependentUpon>CommunityAccount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="communityTools\community_home.aspx.designer.cs">
-      <DependentUpon>community_home.aspx</DependentUpon>
+    <Compile Include="communityTools\CommunityAccount.aspx.designer.cs">
+      <DependentUpon>CommunityAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityTools\CommunityHome.aspx.cs">
+      <DependentUpon>CommunityHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityTools\CommunityHome.aspx.designer.cs">
+      <DependentUpon>CommunityHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityTools\CommunityInfo.aspx.cs">
+      <DependentUpon>CommunityInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityTools\CommunityInfo.aspx.designer.cs">
+      <DependentUpon>CommunityInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityTools\CommunityJob.aspx.cs">
+      <DependentUpon>CommunityJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityTools\CommunityJob.aspx.designer.cs">
+      <DependentUpon>CommunityJob.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -115,6 +142,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -137,19 +171,19 @@
     <Compile Include="shopping\productsPage.aspx.designer.cs">
       <DependentUpon>productsPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="studentTools\student_home.aspx.cs">
-      <DependentUpon>student_home.aspx</DependentUpon>
+    <Compile Include="studentTools\StudentHome.aspx.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="studentTools\student_home.aspx.designer.cs">
-      <DependentUpon>student_home.aspx</DependentUpon>
+    <Compile Include="studentTools\StudentHome.aspx.designer.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="facultyTools\faculty_home.aspx.cs">
-      <DependentUpon>faculty_home.aspx</DependentUpon>
+    <Compile Include="facultyTools\FacultyHome.aspx.cs">
+      <DependentUpon>FacultyHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="facultyTools\faculty_home.aspx.designer.cs">
-      <DependentUpon>faculty_home.aspx</DependentUpon>
+    <Compile Include="facultyTools\FacultyHome.aspx.designer.cs">
+      <DependentUpon>FacultyHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="userManagement\showUser.aspx.cs">
       <DependentUpon>showUser.aspx</DependentUpon>

@@ -11,7 +11,10 @@ namespace Phase8.studentTools
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if ((string)Session["ID"] != "student")
+            {
+                Response.Redirect("../LoginPage/LoginPage.aspx");
+            }
         }
     }
 }
