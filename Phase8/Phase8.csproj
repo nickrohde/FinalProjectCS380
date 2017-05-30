@@ -89,6 +89,8 @@
     <Content Include="facultyTools\FacultyAcceptHours.aspx" />
     <Content Include="facultyTools\FacultyAccount.aspx" />
     <Content Include="facultyTools\FacultyViewProgress.aspx" />
+    <Content Include="studentTools\studentCreateAPlan.aspx" />
+    <Content Include="studentTools\studentThankYou.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.css" />
@@ -97,7 +99,6 @@
     <Content Include="productManagement\newProduct.aspx" />
     <Content Include="shopping\buyNow.aspx" />
     <Content Include="shopping\productsPage.aspx" />
-    <Content Include="studentTools\StudentHome.aspx" />
     <Content Include="facultyTools\FacultyHome.aspx" />
     <Content Include="userManagement\showUser.aspx" />
     <Content Include="userManagement\updateUserInfo.aspx" />
@@ -192,13 +193,6 @@
     <Compile Include="shopping\productsPage.aspx.designer.cs">
       <DependentUpon>productsPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="studentTools\StudentHome.aspx.cs">
-      <DependentUpon>StudentHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="studentTools\StudentHome.aspx.designer.cs">
-      <DependentUpon>StudentHome.aspx</DependentUpon>
-    </Compile>
     <Compile Include="facultyTools\FacultyHome.aspx.cs">
       <DependentUpon>FacultyHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -266,6 +260,18 @@
     </Compile>
     <Compile Include="facultyTools\FacultyViewProgress.aspx.designer.cs">
       <DependentUpon>FacultyViewProgress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentTools\studentCreateAPlan.aspx.cs">
+      <DependentUpon>studentCreateAPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentTools\studentCreateAPlan.aspx.designer.cs">
+      <DependentUpon>studentCreateAPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentTools\studentThankYou.aspx.cs">
+      <DependentUpon>studentThankYou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentTools\studentThankYou.aspx.designer.cs">
+      <DependentUpon>studentThankYou.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
