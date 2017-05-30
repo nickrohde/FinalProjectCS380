@@ -7,7 +7,7 @@
                         StaticMenuItemStyle-VerticalPadding="10px" StaticMenuItemStyle-HorizontalPadding="10px" RenderingMode="List" Orientation="Horizontal">  
     
             <Items>
-                <asp:MenuItem Text="Home" NavigateUrl="#"></asp:MenuItem>
+                <asp:MenuItem Text="Home" Selected="true"></asp:MenuItem>
                 <asp:MenuItem Text="Post Job" NavigateUrl="#"></asp:MenuItem>
                 <asp:MenuItem Text="Edit Account" NavigateUrl="#"></asp:MenuItem>
                 <asp:MenuItem Text="Institution" NavigateUrl="#"></asp:MenuItem>

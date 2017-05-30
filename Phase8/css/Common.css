@@ -1,4 +1,43 @@
 ﻿#MenuBox
 {
-    padding-left: 30%;
+    position:relative;
+    left:30%;
+}
+
+body
+{
+    background: #bca41e;
+}
+
+#ContentPlaceHolder1_loginBox
+{
+    position: relative;
+    left:45%;
+    top:400px;
+}
+
+#SignUpBox
+{
+    position: relative;
+    left:45%;
+    top:250px;
+}
+
+#ThankYouMsg
+{
+    position: relative;
+    left:22%;
+    top:250px;
+}
+
+#HomeButtonThankYou
+{
+    position: relative;
+    left:45%;
+    top:300px;
+}
+
+.label
+{
+    font: 22px bold;
 }

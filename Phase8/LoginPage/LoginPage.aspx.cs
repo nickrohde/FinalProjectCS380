@@ -37,5 +37,11 @@ namespace Phase8.LoginPage
                 Response.Redirect("..\\adminTools\\AdminHome.aspx");
             }
         }
+
+        protected void SignUpButtonClick(object sender, EventArgs e)
+        {
+            Session["ID"] = null;
+            Response.Redirect("..\\communityTools\\CommunitySignUp.aspx");
+        }
     }
 }

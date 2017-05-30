@@ -71,6 +71,8 @@
     <Content Include="communityTools\CommunityHome.aspx" />
     <Content Include="communityTools\CommunityInfo.aspx" />
     <Content Include="communityTools\CommunityJob.aspx" />
+    <Content Include="communityTools\CommunitySignUp.aspx" />
+    <Content Include="communityTools\CommunityThankYou.aspx" />
     <Content Include="css\Common.css" />
     <Content Include="css\CommunityStyle.css" />
     <Content Include="LoginPage\LoginPage.aspx" />
@@ -135,6 +137,20 @@
     </Compile>
     <Compile Include="communityTools\CommunityJob.aspx.designer.cs">
       <DependentUpon>CommunityJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityTools\CommunitySignUp.aspx.cs">
+      <DependentUpon>CommunitySignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityTools\CommunitySignUp.aspx.designer.cs">
+      <DependentUpon>CommunitySignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityTools\CommunityThankYou.aspx.cs">
+      <DependentUpon>CommunityThankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityTools\CommunityThankYou.aspx.designer.cs">
+      <DependentUpon>CommunityThankYou.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

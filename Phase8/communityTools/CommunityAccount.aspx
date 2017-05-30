@@ -9,14 +9,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div id="MenuBox">
-            <asp:Menu ID="navMenu" runat="server" BackColor="#7407c6" BorderColor="#5d03a0" StaticMenuItemStyle-ForeColor="#FFFFFF" 
+            <asp:Menu ID="navMenu" runat="server" BackColor="#7407c6" BorderColor="#5d03a0" StaticMenuItemStyle-ForeColor="#FFFFFF" DynamicHoverStyle="true"
                         StaticMenuItemStyle-VerticalPadding="10px" StaticMenuItemStyle-HorizontalPadding="50px" RenderingMode="List" Orientation="Horizontal">  
     
+                <staticselectedstyle backcolor="#8a0bea"/>
+
                 <Items>
-                    <asp:MenuItem Text="Home" NavigateUrl="CommunityHome.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Home" NavigateUrl="CommunityHome.aspx" ></asp:MenuItem>
                     <asp:MenuItem Text="Post Job" NavigateUrl="CommunityJob.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Institution Info" NavigateUrl="CommunityInfo.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Edit Account"></asp:MenuItem>
+                    <asp:MenuItem Text="Edit Account" Selected="true"></asp:MenuItem>
                     <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
                 </Items>
                                   

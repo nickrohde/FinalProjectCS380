@@ -4,7 +4,8 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="loginBox" runat="server" visible="true">
+    
+    <div id="loginBox" runat="server">
 
         <asp:Label runat="server">Username:</asp:Label>
         <br />
@@ -16,7 +17,8 @@
         <br />
         <asp:Button ID="loginButton" OnClick="LogInButtonClick" runat="server" Text="Login"/>
         <br />
-        <a href="#">Click to Sign Up</a>
+        <br />
+        <asp:Button ID="SignUpButton" OnClick="SignUpButtonClick" runat="server" Text="Sign Up As Community Member"></asp:Button>
 
     </div>
 
