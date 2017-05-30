@@ -6,7 +6,7 @@
 
 body
 {
-    background: #bca41e;
+    background: #fff;
 }
 
 #ContentPlaceHolder1_loginBox
@@ -43,7 +43,7 @@ body
 }
 #StudentForm {
     position: relative;
-    left: 35%;
+    left: 25%;
     top: 50px;
 }
 

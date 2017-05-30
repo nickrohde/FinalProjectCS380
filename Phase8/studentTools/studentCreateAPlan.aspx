@@ -19,6 +19,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 <div ID="StudentForm">
 <asp:Label ID="Welcome_Message" runat="server"></asp:Label>
+<br />
 <asp:Label runat="server">Name:</asp:Label>
 <br />
 <asp:TextBox runat="server" ID="Name"></asp:TextBox>
@@ -33,6 +34,6 @@
 <br />
 <asp:Button ID="Submit" OnClick="submitStudentForm" text="Submit" runat="server" />
 </div>
-<meter id="StudentMeter" max="10" low="0" value="5"></meter>
+<div><meter id="StudentMeter" max="10" low="0" value="5"></meter></div>
 
 </asp:Content>
