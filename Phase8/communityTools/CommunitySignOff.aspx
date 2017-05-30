@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="CommunityHome.aspx.cs" Inherits="Phase8.communityTools.CommunityHome" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="CommunitySignOff.aspx.cs" Inherits="Phase8.communityTools.CommunitySignOff" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
@@ -15,15 +15,15 @@
                 <staticselectedstyle backcolor="#8a0bea"/>
 
                 <Items>
-                    <asp:MenuItem Text="Home" Selected="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Home" NavigateUrl="CommunityHome.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Post Job" NavigateUrl="CommunityJob.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Post Job" NavigateUrl="CommunityJob.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Sign-Off Hours" Selected="true"></asp:MenuItem>
                     <asp:MenuItem Text="Institution Info" NavigateUrl="CommunityInfo.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Edit Account" NavigateUrl="CommunityAccount.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
                 </Items>
 
-			</asp:Text
+            </asp:Text
             </asp:Menu>
         </div>
 
@@ -31,4 +31,4 @@
 
 <asp:Content ID="ContentPlaceHolder2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
-</asp:Content>
+</asp:Content>﻿
