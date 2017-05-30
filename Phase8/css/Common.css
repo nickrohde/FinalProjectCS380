@@ -41,3 +41,14 @@ body
 {
     font: 22px bold;
 }
+#StudentForm {
+    position: relative;
+    left: 35%;
+    top: 50px;
+}
+
+#StudentMeter {
+    position: relative;
+    left: 65%;
+    top: 50px;
+}
