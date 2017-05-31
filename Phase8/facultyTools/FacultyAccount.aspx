@@ -7,23 +7,23 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-    <div id="MenuBox">
-            <asp:Menu ID="navMenu" runat="server" BackColor="#7407c6" BorderColor="#5d03a0" StaticMenuItemStyle-ForeColor="#FFFFFF" DynamicHoverStyle="true"
-                        StaticMenuItemStyle-VerticalPadding="10px" StaticMenuItemStyle-HorizontalPadding="50px" RenderingMode="List" Orientation="Horizontal">  
-    
-                <staticselectedstyle backcolor="#8a0bea"/>
 
-                <Items>
-                    <asp:MenuItem Text="Home" NavigateUrl="CommunityHome.aspx" ></asp:MenuItem>
-                    <asp:MenuItem Text="Accept Student Hours" NavigateUrl="FacultyAcceptHours.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="View Student Progress" NavigateUrl="FacultyViewProgress.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Edit Account" Selected="true"></asp:MenuItem>
-                    <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
-                </Items>
+    <div id="MenuBox">
+        <asp:Menu ID="navMenu" runat="server" BackColor="#7407c6" BorderColor="#5d03a0" StaticMenuItemStyle-ForeColor="#FFFFFF" 
+                        StaticMenuItemStyle-VerticalPadding="10px" StaticMenuItemStyle-HorizontalPadding="10px" RenderingMode="List" Orientation="Horizontal">  
+
+            <staticselectedstyle backcolor="#8a0bea"/>
+    
+            <Items>
+                <asp:MenuItem Text="Home" NavigateUrl="FacultyHome.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Accept Student Hours" NavigateUrl="FacultyAcceptHours.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="View Student Progress" NavigateUrl="FacultyViewProgress.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Account Settings" Selected="true"></asp:MenuItem>
+                <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
+            </Items>
                                   
-            </asp:Menu>
-        </div>
+        </asp:Menu>
+     </div>
 
 </asp:Content>
 

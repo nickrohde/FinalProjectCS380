@@ -15,11 +15,11 @@
             <staticselectedstyle backcolor="#8a0bea"/>
     
             <Items>
-                <asp:MenuItem Text="Home" NavigateUrl="CommunityHome.aspx" ></asp:MenuItem>
-                    <asp:MenuItem Text="Accept Student Hours" NavigateUrl="FacultyAcceptHours.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="View Student Progress" NavigateUrl="FacultyViewProgress.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Edit Account" Selected="true"></asp:MenuItem>
-                    <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Home" Selected="true" ></asp:MenuItem>
+                <asp:MenuItem Text="Accept Student Hours" NavigateUrl="FacultyAcceptHours.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="View Student Progress" NavigateUrl="FacultyViewProgress.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Account Settings" NavigateUrl="FacultyAccount.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Sign Out" NavigateUrl="../LoginPage/LoginPage.aspx"></asp:MenuItem>
             </Items>
                                   
         </asp:Menu>
@@ -27,6 +27,23 @@
 
 </asp:Content>
 
-<asp:Content ID="ContentPlaceHolder2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
+     <div id="headerStyle">
+
+        <h2>Welcome!</h2>
+        
+        
+        <p class="bodyStyle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br />
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <br />
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br />
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
+            deserunt mollit anim id est laborum.
+        </p>
+
+     </div>
 
 </asp:Content>
+

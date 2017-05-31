@@ -1,2 +1,7 @@
-﻿body {
+﻿#headerStyle {
+    padding-left: 5%;
+}
+
+.bodyStyle {
+    padding-left: 2%;
 }
